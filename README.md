@@ -43,6 +43,8 @@ Installation
     proxy:
       version: 0.1
     ```
+    The version variable here is just to track your modification made on your fpm and proxy instance. For example, I'm using a private registry such that each change is track and I can rollback to a previous change if anything go wrong. I can that way rebuild the exact same stack every time. Even if Nextcloud decide to update the image I'm using as a base, this will not impact me/you as the image is already built and store in my/your registry.
+
     db.env: database name and credentials. Make sure to use a strong password.
 
 4. Deploy the nextcloud stack.
