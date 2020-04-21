@@ -1,0 +1,8 @@
+#@data/values
+---
+domain: "localhost.localdomain"
+registry: <YOUR_REGISTRY_URL_HERE>
+fpm:
+  version: 0.1
+proxy:
+  version: 0.1
