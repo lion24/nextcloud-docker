@@ -1,6 +1,3 @@
 #!/bin/bash
 
-echo "hello"
-exit 0
-
 ./ytt -f configs.yaml -f stack.yaml | docker stack deploy nextcloud --with-registry-auth --compose-file -
